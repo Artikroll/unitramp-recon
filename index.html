@@ -6,6 +6,7 @@
 <title>UNITRAMP · Реконструкция и модернизация парков</title>
 <meta name="description" content="Перезапуск действующего батутного или семейного парка: модернизация зон или полная реконструкция. Парк закрывается только на монтаж, около трёх недель.">
 <style>
+html{overflow-x:clip}
 @font-face{font-family:'Unbounded';src:url(assets/fonts/Unbounded.ttf) format('truetype');font-weight:200 900;font-display:swap}
 @font-face{font-family:'Onest';src:url(assets/fonts/Onest.ttf) format('truetype');font-weight:100 900;font-display:swap}
 :root{--bg:#F4F2FF;--white:#fff;--ink:#17142E;--muted:#625E7C;--line:#E2DEF5;--vio:#5B3FF6;--vio2:#4328D9;--lav:#E9E4FF;--coral:#FF6A4D;--sun:#FFC53D;--mint:#3DD6B5;--grey:#B9B6C8;--r:32px}
@@ -300,7 +301,7 @@ form .row{grid-template-columns:1fr}
       <div class="kick"><i></i>Реконструкция и модернизация</div>
       <h1>Перезапуск парка <span>без долгого простоя</span></h1>
       <p>Проект и производство идут, пока ваш парк работает. Закрываемся только на демонтаж и монтаж: «Чудо Остров» в Великом Новгороде сменил арену за 23 дня.</p>
-      <div class="row"><a class="btn" href="#symptoms">Подобрать сценарий</a><span class="pill l">от 10 млн ₽ <span class="gap ok">порог бюджета</span></span></div>
+      <div class="row"><a class="btn" href="#symptoms">Подобрать сценарий</a><span class="pill l">от 10 млн ₽</span></div>
     </div>
   <div class="ba" id="ba" style="--p:50%">
     <img class="before" src="assets/img/vt-frame.jpg" alt="Зал «Ваты» в Кандалакше во время работ">
@@ -354,7 +355,7 @@ form .row{grid-template-columns:1fr}
         <div class="ph"><img src="assets/img/vt-a1.jpg" alt="Батутная арена после обновления" loading="lazy"><div class="pills"><span class="pill">Простой: дни</span></div></div>
         <div class="bd"><span class="pill l" style="align-self:flex-start">01 · освежить</span><h3>Заменить износ</h3><p>Арена в порядке, но выглядит уставшей и теряет безопасность.</p>
           <ul><li>Сетки, пружины, страховочные маты</li><li>Стеновые протекторы и ограждение</li><li>Поролоновые кубики для ямы</li></ul>
-          <p class="ex">Срок и бюджет <span class="gap">диапазон по замене износа</span></p></div>
+          <p class="ex">Срок и бюджет</p></div>
       </article>
       <article class="card" id="sc1" data-r>
         <div class="ph"><img src="assets/img/mk-a12.jpg" alt="Новые интерактивные зоны MONKEY" loading="lazy"><div class="pills"><span class="pill">Монтаж 21 день</span></div></div>
@@ -408,7 +409,7 @@ form .row{grid-template-columns:1fr}
     <div class="dt" data-r>
       <div class="lane"><h4>«Чудо Остров», полная реконструкция <span>85 рабочих дней проекта, из них 23 календарных дня парк закрыт</span></h4>
         <div class="track"><div class="seg open" style="--w:76%">Парк работает: проект и производство, ≈17 недель</div><div class="seg closed" style="--w:18%">Закрыт 23 дня</div><div class="seg go" style="--w:6%">Старт</div></div></div>
-      <div class="lane"><h4>MONKEY, модернизация <span>45 рабочих дней проекта, монтаж 21 день <span class="gap ok">закрывали ли парк целиком</span></span></h4>
+      <div class="lane"><h4>MONKEY, модернизация <span>45 рабочих дней проекта, монтаж 21 день</span></h4>
         <div class="track"><div class="seg open" style="--w:55%">Парк работает: проект и производство</div><div class="seg closed" style="--w:33%">Монтаж 21 день</div><div class="seg go" style="--w:12%">Старт</div></div></div>
       <div class="legend"><span><i style="background:var(--mint)"></i>парк принимает гостей</span><span><i style="background:var(--coral)"></i>демонтаж и монтаж</span><span><i style="background:var(--vio)"></i>открытие</span></div>
     </div>
@@ -484,7 +485,7 @@ form .row{grid-template-columns:1fr}
       <div class="step" data-r><b>1</b><h3>Фото и видео парка</h3><p>Общие планы, узлы, износ сеток и матов. Можно с телефона.</p></div>
       <div class="step" data-r><b>2</b><h3>План и паспорта</h3><p>План помещения и паспорта действующего оборудования, если есть.</p></div>
       <div class="step" data-r><b>3</b><h3>Замер и встреча</h3><p>Специалист приезжает, замеряет зал и обсуждает задачу с собственником.</p></div>
-      <div class="step" data-r><b>4</b><h3>Проект и смета</h3><p>Варианты глубины работ, сроки закрытия и стоимость. <span class="gap">срок подготовки сметы</span></p></div>
+      <div class="step" data-r><b>4</b><h3>Проект и смета</h3><p>Варианты глубины работ, сроки закрытия и стоимость.</p></div>
     </div>
     <div class="fm" data-r>
       <div>
@@ -511,10 +512,10 @@ form .row{grid-template-columns:1fr}
   <div class="wrap">
     <div class="head"><div><div class="kick"><i></i>Вопросы</div><h2>Что спрашивают владельцы</h2></div></div>
     <div class="faq">
-      <details><summary>Можно не закрывать парк целиком?</summary><div class="a"><p>В MONKEY изменения внесли в текущую структуру, новые зоны добавляли поверх старой. Можно ли работать частью парка во время монтажа, решаем по проекту. <span class="gap ok">работа по зонам без полного закрытия</span></p></div></details>
+      <details><summary>Можно не закрывать парк целиком?</summary><div class="a"><p>В MONKEY изменения внесли в текущую структуру, новые зоны добавляли поверх старой. Можно ли работать частью парка во время монтажа, решаем по проекту.</p></div></details>
       <details><summary>Сколько парк будет закрыт?</summary><div class="a"><p>В наших проектах монтаж занял 21 и 23 дня. Проектирование и производство идут заранее, пока парк работает.</p></div></details>
       <details><summary>Возьмётесь за парк другого производителя?</summary><div class="a"><p><span class="gap">берёте ли чужое оборудование на модернизацию и на каких условиях</span></p></div></details>
-      <details><summary>Что будет со старым оборудованием?</summary><div class="a"><p>Демонтаж выполняем сами. <span class="gap">выкуп, утилизация или передача заказчику</span></p></div></details>
+      <details><summary>Что будет со старым оборудованием?</summary><div class="a"><p>Демонтаж выполняем сами.</p></div></details>
       <details><summary>Что с документами после реконструкции?</summary><div class="a"><p>Новое оборудование приходит с паспортами, проект обновляется. Любые изменения в паспорте аттракциона согласуются с производителем, иначе не пройдёт регистрация в ГосТехНадзоре, как было у «Ваты».</p></div></details>
       <details><summary>Сколько стоит?</summary><div class="a"><p>Зависит от сценария и площади. Пришлите фото и план, и мы предложим варианты. <span class="gap">диапазоны по трём сценариям</span></p></div></details>
     </div>
